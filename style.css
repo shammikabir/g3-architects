@@ -1,0 +1,169 @@
+/* header style */
+*{
+    margin: 0;
+    padding:0;
+}
+/* utilities */
+ .container{
+    font-weight: 700;
+    
+    
+} 
+.text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+}
+
+body{
+    font-family: 'Work Sans';
+  
+
+}
+.heading-container{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 50px 120px;
+    
+
+}
+.heading-title{
+    font-size: 45px;
+}
+
+.heading-nav{
+    display: flex;
+    justify-content: space-between;
+   
+    
+    align-items: center;
+   
+/* width: 1920px;
+height: 1352px; */
+}
+
+.heading-list ul{
+    list-style: none;
+    display: flex;
+    gap:35px;
+}
+
+.heading-nav ul li {
+    font-weight: 500;
+font-size: 18px;
+}
+
+.brand-info{
+    text-align: center;
+}
+
+.brand-title{
+    margin-top: 102px;
+    font-size: 64px;
+}
+
+
+.brand-description{
+    padding: 20px 200px;
+    
+}
+
+button{
+    background: #FF900E;
+border-radius: 8px;
+width: 180px;
+height: 64px;
+border-style: none;
+color:white;
+font-weight: 600;
+font-size: 20px;
+margin-top: 32px;
+}
+
+.banner img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* main-section styles */
+
+.features-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 60px;
+    padding: 50px 120px;
+    justify-content: right;
+    margin-top: 110px;
+}
+.feature-title{
+    font-weight: 500;
+font-size: 45px;
+margin-top: 300px;
+
+}
+
+.team-image {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:24px;
+   
+}
+
+.description{
+    margin-top: 25px;
+}
+
+/* Architect styles */
+
+.features-contents{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:50px;
+    padding: 50px 120px;
+}
+.architect-image img{
+    width: 100%;
+    
+}
+.content-title{
+  
+    font-size: 45px;
+    
+   
+}
+.vl {
+    border-left: 6px solid #FF900E;  
+    height: 106px;
+  }
+
+.content-border{
+    display: flex;
+    gap:21px;
+}
+
+.content-list{
+    background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+padding:30px 30px;
+margin-top: 20px;
+}
+.architect-details{
+    position: relative;
+}
+
+.large-button{
+    width: 342px;
+height: 200px;
+font-weight: 700;
+font-size: 60px;
+position: absolute;
+padding: 45px 45px;
+top: 2850px;
+
+}
+
+.experiments{
+    font-weight: 500;
+font-size: 25px;
+}
