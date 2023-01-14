@@ -167,3 +167,72 @@ top: 2850px;
     font-weight: 500;
 font-size: 25px;
 }
+ /* some-facts styles */
+
+ .facts{
+    padding: 50px 120px;
+    
+ }
+
+ .details-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:100px;
+    margin-top: 100px;
+
+ }
+ .list{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241px;
+height: 241.83px;
+
+
+ }
+ .list img{
+     
+    padding-left:85px;
+    padding-top: 40px;
+ }
+ .total-number{
+    font-weight: 600px;
+    font-size: 45px;
+    padding-left:75px;
+ }
+ .about{
+    font-weight: 600px;
+    font-size: 20px;
+    padding: 5px 30px;
+ }
+ /* sponser styles */
+ .sponsers{
+    text-align: center;
+    margin-top: 180px;
+
+ }
+ .sponser-img{
+    display: flex;
+   gap:140px;
+   padding: 50px 120px;
+ }
+
+ .sponser-img img{
+    filter: grayscale(100%);
+ }
+
+ /* footer design */
+
+ .footer{
+    background: #FFF4E7;
+border-radius: 8px;
+width: 1300px;
+margin-top: 130px;
+
+margin-left: 120px;
+margin-bottom: 220px;
+text-align: center;
+font-weight: 400;
+font-size: 20px;
+padding:40px;
+
+ }
