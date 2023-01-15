@@ -191,7 +191,7 @@ font-size: 60px;
 position: absolute;
 /* padding: 45px 45px; */
   top: 3150px;
-right:489px;  
+right: 306px;  
 
 }
 
@@ -294,6 +294,9 @@ text-align: center;
 font-weight: 400;
 font-size: 20px;
 padding:40px;
+max-width: 1440px;
+
+   
 
  }
 
