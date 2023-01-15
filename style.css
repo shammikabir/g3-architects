@@ -189,6 +189,11 @@ height: 241.83px;
 
 
  }
+ .list:hover{
+    background-color:  rgba(255, 144, 14, 0.1);
+    box-shadow: inset;
+    transform: translate(20px ,20px) scale(1.1) ;
+ }
  .list img{
      
     padding-left:85px;
@@ -219,6 +224,21 @@ height: 241.83px;
  .sponser-img img{
     filter: grayscale(100%);
  }
+/* Dream-house styles */
+.dream-house{
+    font-size: 45px;
+    padding: 10px 120px;
+    text-align: center;
+ 
+    
+}
+.dream-house-desc{
+  padding: 20px 400px;
+}
+.dream-house img{
+    margin-top: 45px;
+}
+
 
  /* footer design */
 
